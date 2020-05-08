@@ -1,10 +1,6 @@
-# Udacity Weather-Journal App Front-End Project
-
-### Robin Edmunds 2019
+# Udacity Weather Journal App
 
 ## About
-
-This is my first dive into node.js, the npm package manager and the express library.
 
 The backend `server.js` serves static html, css and client js. The front-end `website/app.js` makes API calls to `server.js`, `server.js` then makes a call to the OpenWeatherMap API to fetch the current temperature of a specifed location. The front-end js code then makes another API call to `server.js`, and dynamically updates the elements of the webpage.
 
